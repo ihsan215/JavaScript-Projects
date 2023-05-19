@@ -7,4 +7,5 @@
 The content of the series;
 
 1 - [DigitalClock](1-DigitalClock/README.md) <br>
-2 - [StopWatch](2-StopWatch/README.md)
+2 - [StopWatch](2-StopWatch/README.md) <br>
+3 - [Calculator](3-Calculator/README.md) <br>
