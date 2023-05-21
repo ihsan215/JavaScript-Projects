@@ -1,0 +1,81 @@
+/* ######################### */
+/* General Settings */
+
+ /* Body style settings */
+ body{
+
+    background-color: rgba(40, 40, 40, 1);
+    font-family: monospace;
+}
+
+/* kbd ettings */
+kbd {
+    display: block;
+    font-size: 4rem;
+  }
+
+h1{
+    font-size: 75px;
+}
+
+/* General Settings */
+/* ######################### */
+
+
+/* ######################### */
+/* General Elements Settings */
+
+/* Title Icon Settings */
+.icon{
+
+    height: 95px;
+    padding-bottom: 15px;
+    
+}
+
+
+/* Main Keys Style Settings */
+.keys{
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Key Style Settings */
+.key {
+    display: block;
+    border: 0.4rem solid black;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    transition: all 0.07s ease;
+    width: 10rem;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+/* Sound Span Style Settings */
+.sound{
+    
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: #ffc600;
+}
+
+/* Adding class for animation when playing sound */
+.playing {
+    transform: scale(1.1);
+    border-color: rgb(0, 35, 65);
+    box-shadow: 0 0 1rem #036553;
+  }
+
+
+
+
+/* General Elements Settings */
+/* ######################### */
+
+
+
