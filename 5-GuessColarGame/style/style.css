@@ -1,0 +1,65 @@
+/* ############################# */
+/* General Settings */
+
+/* Body General Settings */
+body{
+
+    background-color: rgba(40,40,40,1);
+    font-family: monospace;
+}
+
+/* General Settings */
+/* ############################# */
+
+/* ############################# */
+/* Elements Settings */
+
+/* Color Buttons Style */
+.color-btns{
+
+    width: 15rem;
+    height: 15rem;
+    border-radius: 25%;
+    padding: 2rem;
+    margin: 2rem;
+
+}
+
+/* Game Option Button Style */
+.game-option{
+    float: right;
+    margin-right: 15rem;
+}
+
+/* Game Control Button Style */
+.btn-control{
+    float: left;
+    margin-left: 15rem;
+}
+
+
+/* Main Game Area Style */
+.main-area{
+    padding-top: 1rem;
+    margin-top: 2rem;
+    border: solid white;
+    border-radius: 35px;
+    transition: all 0.07s ease;
+}
+
+/* Animation Style Setting */
+.right-answer{
+    transform: scale(1.05);
+    border-color: rgb(5, 177, 108);
+    box-shadow: 0 0 1rem #006a13;
+}
+
+/* Animation Style Setting */
+.false-answer{
+    transform: scale(1.05);
+    border-color: rgb(99, 2, 2);
+    box-shadow: 0 0 1rem #6a0009;
+}
+
+/* Elements Settings */
+/* ############################# */
