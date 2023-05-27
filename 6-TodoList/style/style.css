@@ -1,0 +1,51 @@
+/* ############################# */
+/* General Settings */
+
+/* Body General Settings */
+body{
+
+    background-color: rgba(40,40,40,1);
+    font-family: monospace;
+}
+
+/* General Settings */
+/* ############################# */
+
+
+/* ############################# */
+/* Elements Settings */
+
+
+
+/* List Item */
+.list-items{
+
+    border: 1px solid;
+    padding-left: 15px;;
+    background-color: rgb(1, 76, 51); 
+    display: inline;
+    transition: all 0.1s ease;
+  
+}
+
+/* For Simulation */
+.list-item-sim{
+
+    transform: scale(1.05);
+    border-color: rgb(0, 35, 65);
+    box-shadow: 0 0 1rem #036553;
+
+}
+
+/* CheckBox Item in List */
+.checkBox-item{
+
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+
+/* Elements Settings */
+/* ############################# */
