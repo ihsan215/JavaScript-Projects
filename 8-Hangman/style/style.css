@@ -1,0 +1,165 @@
+/* ############################## */
+/* General Settings */
+
+body{
+
+    background-color: rgba(40, 40, 40, 1);
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    color: white;
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+h3{
+
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+h4{
+    color: white;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* General Settings */
+/* ############################## */
+
+
+/* ############################## */
+/* Elements Settings */
+
+/* Letters Main List Style */
+.LetterBtnsUl{
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+   
+    
+}
+
+/* Letters List Item Style */
+.letterItem{
+    
+    display: inline-block;
+    padding: 1.5rem;
+    cursor: pointer;
+    border: solid #036577;
+    box-shadow: 0rem 0rem 1rem #036553;
+    margin: 5px;
+    border-width: 1px;
+    border-radius: 5px;
+  
+}
+
+/* Letters List Item Hover */
+.letterItem:hover{
+    background-color: azure;
+    color: black;
+}
+
+/* Letters List Item Onclick */
+.letterItemClick{
+
+    display: inline-block;
+    padding: 1.5rem;  
+    border: solid rgb(0, 0, 0);
+    background-color: rgb(12, 12, 12);
+    box-shadow: 0rem 0rem 1rem #1b1c1c;
+    color: rgb(104, 104, 104);
+    margin: 5px;
+    border-width: 1px;
+    border-radius: 5px;
+
+}
+
+/* Letter Lose Game Style */
+.letterItemLose{
+    border: solid rgb(0, 0, 0);
+    background-color: #be1000;
+    box-shadow: 0rem 0rem 1rem #dd2104;
+    color: rgb(21, 15, 15);
+}
+
+/* Letter Win Game Style */
+.letterItemWin{
+
+    border: solid rgb(0, 0, 0);
+    background-color: #03b68c;
+    box-shadow: 0rem 0rem 1rem #036553;
+    color: rgb(21, 15, 15);
+}
+
+
+/* The Word List Style */
+.WordDivUl{
+
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+   
+    
+}
+
+/* The Word Item Style */
+.WordItem{
+    
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    margin: 1px;
+    border-width: 1px;
+    border-radius: 5px;
+  
+}
+
+/* Setting the space */
+.Wordspace{
+    padding: 15px;
+}
+
+/* Game Buttons */
+.gmBtns{
+    text-align: center;
+    padding: 0.5rem;
+
+}
+
+/* Hangman Area */
+
+.hangmanArea{
+
+    margin: auto;
+    width: 500px;
+    height: 220px;
+    border: solid #03b68c;
+    box-shadow: 0rem 0rem 1rem #036553;
+
+}
+
+/* Hangman Canvas */
+#hangman{
+    
+    width: 500px;
+    height: 200px;
+
+}
+
+/* Elements Settings */
+/* ############################## */
