@@ -14,3 +14,4 @@ The content of the series;
 6 - [TodoList](6-TodoList/README.md) <br>
 7 - [TicTacToe](7-TicTacToe/README.md) <br>
 8 - [Hangman](8-Hangman/README.md) <br>
+9 - [DynamicQuiz](9-DynamicQuiz/README.md) <br>

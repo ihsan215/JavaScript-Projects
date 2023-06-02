@@ -1,0 +1,74 @@
+/* ######################### */
+/* General Settings */
+body{
+
+    background-color: rgb(40,40,40);
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: x-large;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+h2,h3{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+/* General Settings */
+/* ######################### */
+
+/* ######################### */
+/* Elements Settings */
+
+/* Label Settings */
+.options{
+    color: white;
+}
+
+/* Game Buttons */
+.gameBtns{
+
+    width: 100px;
+    float: right;
+    margin: 2rem;
+
+}
+
+/* Game Alert Area Style */
+.GameAlertWarning{
+
+    width: 200rem;
+    height: 3rem;
+    text-align: center;
+    border: solid #a80b00;
+    box-shadow: 0rem 0rem 1rem #db5b00;
+    
+}
+
+.GameAlertEndGame{
+
+    width: 200rem;
+    height: 3rem;
+    text-align: center;
+    border: solid #02b6a7;
+    box-shadow: 0rem 0rem 1rem #01ca83;
+    
+}
+
+/* Alert Msg Style */
+.alertMsg{
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+/* Elements Settings */
+/* ######################### */
