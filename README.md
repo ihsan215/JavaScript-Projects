@@ -15,3 +15,4 @@ The content of the series;
 7 - [TicTacToe](7-TicTacToe/README.md) <br>
 8 - [Hangman](8-Hangman/README.md) <br>
 9 - [DynamicQuiz](9-DynamicQuiz/README.md) <br>
+10 - [RandomMazeGenerator](10-RandomMazeGenerator/README.md) <br>
