@@ -16,3 +16,4 @@ The content of the series;
 08 - [Hangman](08-Hangman/README.md) <br>
 09 - [DynamicQuiz](09-DynamicQuiz/README.md) <br>
 10 - [RandomMazeGenerator](10-RandomMazeGenerator/README.md) <br>
+11 - [AnalogClock](11-AnalogClock/README.md) <br>

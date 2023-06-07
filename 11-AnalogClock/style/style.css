@@ -1,0 +1,44 @@
+/* ############################ */
+/* General Settings */
+
+body{
+
+    background-color: rgb(40, 40, 40); 
+    font-family: monospace;
+    color: aliceblue;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+
+/* General Settings */
+/* ############################ */
+
+
+/* ############################ */
+/* Element Settings */
+
+.title{
+    text-align: center;
+}
+
+.clock-area{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+
+}
+
+#clock{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Element Settings */
+/* ############################ */
+
