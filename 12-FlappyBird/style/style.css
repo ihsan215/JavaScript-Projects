@@ -1,0 +1,68 @@
+/* ######################### */
+/* General Settings */
+
+body{
+
+    background-color: rgb(40,40,40);
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: x-large;
+    
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h3{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* General Settings */
+/* ######################### */
+
+
+
+/* ######################### */
+/* Elements Settings */
+
+.game-area{
+
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(192, 246, 243);
+    
+    
+   
+
+}
+
+.walls{
+    height: 400px;
+    background-color: green;
+    position: relative;
+}
+
+
+.gap{
+    background-color: rgb(192, 246, 243);
+    position: relative;
+  
+}
+
+.bird{
+    position: relative;
+    z-index: 100;    
+}
+
+/* Elements Settings */
+/* ######################### */
+
+
+
