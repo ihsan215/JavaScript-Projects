@@ -1,0 +1,69 @@
+/* General Settings */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(14, 120, 84);
+  text-align: center;
+}
+
+/* Modal Settings */
+.modal-btn {
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  color: #444;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0rem;
+  right: 1.2rem;
+  font-size: 3rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Overlay Settings */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+/* Hiiden Settings */
+.hidden {
+  display: none;
+}
