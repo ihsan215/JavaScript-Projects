@@ -20,3 +20,7 @@ The content of the series;
 12 - [FlappyBird](12-FlappyBird/README.md) <br>
 13 - [ShowModalWindow](13-Show-Modal-Window/README.md) <br>
 14 - [GuessMyNumber](14-Guess-My-Number/README.md) <br>
+15 - [PigGame](15-Pig-Game/README.md) <br>
+15 - [BankApp](16-Bank-App/README.md) <br>
+
+

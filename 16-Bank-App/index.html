@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank App</title>
+
+    <link rel="icon" type="image/x-icon" href="src/img/bankIcon.png" />
+
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="row">
+        <div class="column-3">
+          <h2 class="centered-element" id = "intro-msg">Start by logging in</h2>
+        </div>
+
+        <div class="column-3">
+          <img
+            id="Bank-Logo"
+            class="centered-element"
+            src="src/img/bankLogo.png"
+            alt="Logo"
+          />
+        </div>
+
+        <div class="column-3">
+          <form class="User-Log-Input centered-element">
+            <input type="text" id="fname" name="fname" placeholder="user" />
+            <input type="password" id="lname" name="lname" placeholder="pin" />
+
+            <button class="btn login-btn">
+              <img src="src/img/login.png" id="login-img" alt="login" />
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <section class="main">
+      <div class="balance-row">
+        <div class="balance-col1">
+          <p id="balance-label">Current Balance</p>
+          <p id="balance-date">4/17/2023,8:47 PM</p>
+        </div>
+        <div class="balance-col2"><p id="balance-value">300000$</p></div>
+      </div>
+
+      <div class="transaction-row">
+        <div class="transaction-col1">
+          <div class="transaction">
+            <!-- 1 -->
+            <div class="transaction-move">
+              <div class="transaction-type deposit">Deposit&nbsp;</div>
+              <div class="transaction-date">4/17/2023</div>
+              <div class="transaction-value deposit">1200 $</div>
+            </div>
+
+            <!-- 2 -->
+            <div class="transaction-move">
+              <div class="transaction-type withdraw">Withdraw</div>
+              <div class="transaction-date">4/17/2023</div>
+              <div class="transaction-value withdraw">-1200 $</div>
+            </div>
+          </div>
+        </div>
+        <div class="transaction-col2">
+          <div class="commands-col">
+            <div class="transfer-money">
+              <h2 class = "label">Transfer Money</h2>
+              <form class="transfer-money-form">
+                <input type="text" id="tfname" name="tfname" placeholder="user" />
+                <input type="number" id="tfvalue" name="tfvalue" placeholder="value" />
+    
+                <button class="btn transfer-btn">
+                  <img src="src/img/login.png" id="login-img" alt="login" />
+                </button>
+              </form>
+            </div>
+            <div class="request-loan">
+              <h2 class = "label">Request Money</h2>
+              <form class = "request-loan-form">
+                <input type="number" id = "loan-amaount" name = "loan-amaount" placeholder="Amaount">
+
+                <button class="btn loan-btn">
+                  <img src="src/img/login.png" id="login-img" alt="login" />
+                </button>
+
+              </form>
+            </div>
+            <div class="close-account">
+              <h2 class = "label">Close Acccount</h2>
+              <form class="close-money-form">
+                <input type="text" id="clname" name="clname" placeholder="user" />
+                <input type="password" id="clvalue" name="clvalue" placeholder="pin" />
+    
+                <button class="btn close-btn">
+                  <img src="src/img/login.png" id="login-img" alt="login" />
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="summary-row">
+        <div class="summary-col-1">
+          <p class = "sum-label">In : <span class="Total-In">24000$</span></p>
+          <p class = "sum-label">Out : <span class="Total-Out">4000$</span></p>
+          <p class = "sum-label">Interest : <span class="Total-Interest deposit">2000$</span></p>
+          <button class = "btn shot-btn">Sort</button>
+        </div>
+        <div class="summary-col-2">
+          <p class = "sum-label">You will be logged out in : <span class="Log-out">04.23</span></p>
+        </div>
+      </div>
+    </section>
+    <script src="src/source.js"></script>
+  </body>
+</html>

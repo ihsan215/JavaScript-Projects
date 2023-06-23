@@ -1,0 +1,387 @@
+/* General Visual Settings */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* General Button Setting */
+.btn {
+  border: 1px solid #f5f5f5;
+  border-radius: 20%;
+  background: none;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* General Button Setting : Hover*/
+.btn:hover {
+  border: 1px solid rgba(77, 77, 77, 1);
+}
+
+/* Nav Row */
+.row {
+  width: 98%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+
+/* Nav Cololum Settings (3 Coloumn) */
+.column-3 {
+  width: 33.333%;
+  text-align: center;
+  height: 5.1rem;
+}
+
+/* Logo Style Settings */
+#Bank-Logo {
+  width: 3rem;
+}
+
+/* Centerted Element */
+.centered-element {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* User Input */
+.User-Log-Input {
+  display: inline-flex;
+}
+
+/* User Input Style */
+.User-Log-Input > input[type="text"],
+.User-Log-Input > input[type="password"] {
+  border: 1px solid rgb(163, 156, 156);
+  border-radius: 1rem;
+  max-width: 10rem;
+  width: 40%;
+  height: 2rem;
+  margin: 0.1rem;
+}
+
+/* User Input Style Hover */
+.User-Log-Input > input[type="text"]:hover,
+.User-Log-Input > input[type="password"]:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Placeholder settings */
+[placeholder] {
+  text-align: center;
+}
+
+/* Login img */
+#login-img {
+  width: 2rem;
+}
+
+.login-btn {
+  margin: 0.1rem;
+}
+
+/* Main App Row */
+.main {
+  opacity: 0%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* ####################### */
+/* Balance Row */
+
+.balance-row {
+  width: 50%;
+  margin: auto;
+  padding: 0%;
+  text-align: center;
+  display: flex;
+}
+
+.balance-col1 {
+  width: 50%;
+  text-align: left;
+  height: 3rem;
+}
+
+.balance-col2 {
+  width: 50%;
+  text-align: right;
+  height: 2rem;
+}
+
+#balance-label {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: -0.5rem;
+}
+
+#balance-date {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+#balance-value {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* Balance Row */
+/* ####################### */
+
+/* ####################### */
+/* Transaction Row */
+
+/* Transactions */
+.transaction-row {
+  width: 50%;
+  margin: auto;
+  padding: 2%;
+  text-align: center;
+  display: flex;
+
+  margin-top: 2rem;
+  height: 35rem;
+}
+
+.transaction-col1 {
+  width: 65%;
+  text-align: left;
+  height: 3rem;
+
+  margin: 1rem;
+}
+.transaction-col2 {
+  width: 35%;
+  text-align: right;
+  height: 2rem;
+  margin: 1rem;
+}
+
+.transaction {
+  grid-row: 1 / 3;
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: scroll;
+  height: 35rem;
+}
+
+.transaction-move {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.transaction-type {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.1rem 1rem;
+  border-radius: 10rem;
+  margin-right: 2rem;
+}
+
+.deposit {
+  color: green;
+}
+
+.withdraw {
+  color: red;
+}
+
+.transaction-date {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.transaction-value {
+  font-size: 1.7rem;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+/* Commands */
+.commands-col {
+  width: 100%;
+  padding: 1rem;
+}
+
+.transfer-money {
+  height: 9rem;
+  background-color: linear;
+  margin-bottom: 2rem;
+  background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+  border-radius: 1rem;
+  text-align: center;
+}
+.request-loan {
+  height: 9rem;
+  background-color: linear;
+  margin-bottom: 2rem;
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.close-account {
+  height: 9rem;
+  background-color: linear;
+  margin-bottom: 2rem;
+  background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+  border-radius: 1rem;
+  text-align: center;
+}
+
+/* Transfer Money */
+.label {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.transfer-money-form {
+  display: inline-flex;
+  width: 75%;
+  margin-top: 1rem;
+}
+
+#tfname {
+  border: 1px solid rgb(163, 156, 156);
+  border-radius: 1rem;
+  max-width: 10rem;
+  width: 45%;
+  height: 2rem;
+  margin: 0.1rem;
+  margin-right: 1rem;
+}
+
+#tfvalue {
+  border: 1px solid rgb(163, 156, 156);
+  border-radius: 1rem;
+  max-width: 10rem;
+  width: 45%;
+  height: 2rem;
+  margin: 0.1rem;
+  margin-right: 1rem;
+}
+
+.transfer-btn {
+  margin: 0.1rem;
+}
+/* Request Loan */
+
+.request-loan-form {
+  display: inline-flex;
+  width: 75%;
+  margin-top: 1rem;
+}
+
+#loan-amaount {
+  border: 1px solid rgb(163, 156, 156);
+  border-radius: 1rem;
+  max-width: 10rem;
+  width: 100%;
+  height: 2rem;
+  margin: 0.1rem;
+  margin-right: 1rem;
+}
+
+.loan-btn {
+  margin: 0.1rem;
+}
+
+/* Close Account */
+
+.close-money-form {
+  display: inline-flex;
+  width: 75%;
+  margin-top: 1rem;
+}
+
+#clname {
+  border: 1px solid rgb(163, 156, 156);
+  border-radius: 1rem;
+  max-width: 10rem;
+  width: 45%;
+  height: 2rem;
+  margin: 0.1rem;
+  margin-right: 1rem;
+}
+
+#clvalue {
+  border: 1px solid rgb(163, 156, 156);
+  border-radius: 1rem;
+  max-width: 10rem;
+  width: 45%;
+  height: 2rem;
+  margin: 0.1rem;
+  margin-right: 1rem;
+}
+
+.close-btn {
+  margin: 0.1rem;
+}
+
+/* Transaction Row */
+/* ####################### */
+
+/* ###################### */
+/* Summary Row */
+.summary-row {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  height: 35rem;
+}
+
+/* COl-1   */
+.summary-col-1 {
+  display: inline-flex;
+  width: 75%;
+  text-align: left;
+  height: 3rem;
+  margin: 1rem;
+}
+
+.sum-label {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+.Total-In {
+  font-size: 1.5rem;
+  color: #21a774;
+}
+.Total-Out {
+  font-size: 1.5rem;
+  color: #e52a5a;
+}
+.shot-btn {
+  margin-top: 2rem;
+}
+
+.Total-Interest {
+  font-size: 1.5rem;
+}
+
+/* COl-2 */
+.summary-col-2 {
+  width: 25%;
+  text-align: right;
+  height: 3rem;
+  margin: 1rem;
+}
+.Log-out {
+  font-weight: 1000;
+}
+
+/* Summary Row */
+/* ###################### */
