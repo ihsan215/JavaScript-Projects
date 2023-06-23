@@ -21,6 +21,4 @@ The content of the series;
 13 - [ShowModalWindow](13-Show-Modal-Window/README.md) <br>
 14 - [GuessMyNumber](14-Guess-My-Number/README.md) <br>
 15 - [PigGame](15-Pig-Game/README.md) <br>
-15 - [BankApp](16-Bank-App/README.md) <br>
-
-
+16 - [BankApp](16-Bank-App/README.md) <br>
