@@ -22,3 +22,4 @@ The content of the series;
 14 - [GuessMyNumber](14-Guess-My-Number/README.md) <br>
 15 - [PigGame](15-Pig-Game/README.md) <br>
 16 - [BankApp](16-Bank-App/README.md) <br>
+17 - [SliderShow](17-Slider-Show/README.md) <br>

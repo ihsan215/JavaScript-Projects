@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider Show</title>
+
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- Define Source with defer -->
+    <script defer src="src/source.js"></script>
+
+    <!-- APP Title Begin -->
+    <div class="app-title">
+      <h1>Slider Show</h1>
+    </div>
+
+    <!-- APP Title End -->
+
+    <!-- Slider Begin -->
+    <div class="slider">
+      <div class="slide hidden" data-slide="1">
+        <img src="https://picsum.photos/id/237/800/450" alt="" />
+      </div>
+      <div class="slide hidden" data-slide="2">
+        <img src="https://picsum.photos/id/232/800/450" alt="" />
+      </div>
+      <div class="slide hidden" data-slide="3">
+        <img src="https://picsum.photos/id/233/800/450" alt="" />
+      </div>
+      <div class="slide hidden" data-slide="4">
+        <img src="https://picsum.photos/id/231/800/450" alt="" />
+      </div>
+      <a class="next">&#10095;</a>
+      <a class="prev">&#10094;</a>
+
+      <div class="dots">
+        <button class="dot active-dot" data-slide="1"></button>
+        <button class="dot" data-slide="2"></button>
+        <button class="dot" data-slide="3"></button>
+        <button class="dot" data-slide="4"></button>
+      </div>
+    </div>
+    <!-- Slider End -->
+  </body>
+</html>
